@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist/out",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/app/**/*.ts", "src/app/**/*.tsx", "src/app/**/*.d.ts"],
+  "exclude": ["node_modules", "dist"],
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}
